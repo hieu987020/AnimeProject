@@ -1,0 +1,861 @@
+<html>
+<head>
+<title>AnimeTVN Website xem anime Vietsub Online</title>
+<script src = "css1.js"></script>
+<style>
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d1{															/* Div 1*/
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 0.9em;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+.d1 img{
+	margin-left: 12%;
+	height: 40px;
+}
+.d1 .inputd1{
+	width: 450px;
+	height: 35px;
+	background:#E6CECE;
+	font-size: 1em;
+
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 15px;
+	border: solid black 1px;
+}
+.d1 .inputd1:focus{
+	outline: 0;
+	border:1px solid #F30EBA;
+	box-shadow: 0 0 15px #808451;
+}
+.d1 .d11 {									/* chữ thành viên*/
+	width: 100px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 0%;
+	margin-right: 400px;
+	padding-top: 15px;
+}
+.d11:hover{
+	background-color: #20A971;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #20A971;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d2{															/* Div 2*/
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	text-align: left;
+	box-sizing: border-box;
+	float: left;
+	
+}
+.d2 .menu{
+	list-style-type: none;
+	box-sizing: border-box;
+	margin-top: 0%;
+	margin-left: 9%;
+}
+.d2 .menu > li{		
+	height: 40px;
+	color: white;	
+	font-size: 0.9em;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+}
+#hahaha{
+	color: white;
+}
+li > .div1{
+	background-color: #253D66;
+	width: 400px;
+	height: 170px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 233px;
+	margin-top: -6px;
+}
+li > .div2{
+	background-color: #253D66;
+	width:  530px;
+	height: 300px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 350px;
+	margin-top: -6px;
+}
+li > .div3{
+	background-color: #253D66;
+	width:  800px;
+	height: 300px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 445px;
+	margin-top: -6px;
+}
+li > .div4{
+	background-color: #253D66;
+	width:  550px;
+	height: 200px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 565px;
+	margin-top: -6px;
+}
+
+
+#li1{width: 6%;background-color: #20A971;color: white;box-shadow: 0 0 15px #20A971;}
+#li2{
+	width: 10%;
+}
+#li3{
+	width: 8%;
+}
+#li4{
+	width: 10%;
+}
+#li5{
+	width: 10%;
+}
+#li6{
+	width: 8%;
+}
+#li7{
+	width: 13%;
+}
+#li8{
+	width: 13%;
+}
+li:hover div{
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+li:hover{
+	background-color: #20A971;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #20A971;
+}
+
+
+#mua{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#mua:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+#theloai{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#theloai:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+#nhomdich{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#nhomdich:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+#loaiphim{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#loaiphim:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.d3{															/* Div 3*/
+	width: 100%;
+	height: 500px;	
+	background-color: #474242;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+.d3 .d32{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#i1{													/* hình ở giữa */		
+	width: 70%;
+	height: 500px;
+	padding-left: 12%;
+}
+#i11{													/*mũi tên trái*/
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 162px;
+	opacity: 0.7;
+	
+}
+#i12{													/*mũi tên phải*/
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 1067px;
+	opacity: 0.7;
+}
+#i11:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+#i12:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.d4{															/* Div 4*/
+	width: 100%;
+	height: 40px;
+	background-color:#474242;
+	box-sizing: border-box;
+	float: left;
+}
+.d41{
+	width: 70%;
+	height: 40px;
+	background-color: #20A971;
+	color: white;
+	font-size: 1.5em;
+	box-sizing: border-box;
+	margin-left: 12%;
+	text-align: center;
+	padding-top: 5px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.d5{															/* Div 5*/
+	width: 100%;
+	height: 230px;
+	background-color: #474242;
+	box-sizing: border-box;
+	float: left;
+
+}
+.d5 .d51{
+	width: 70%;
+	height: 230px;
+	background-color: #D7C2C2;
+	margin-left: 12%;
+}
+.d5 .d51 .d51a{
+	width: 150px;
+	height: 210px;
+	background-color: white;
+	color: black;
+	font-size: 0.9em;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	margin: 2.6px;
+	margin-top: 9px;
+	margin-left: 4px;
+	border: #C2ACAC solid 1px;	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+#sapchieu{
+	width: 147px;
+	height: 185px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 1px;
+	padding-top: 1px;
+}
+.d51a > .nutplay{
+	width: 100px;
+	height: 100px;
+	opacity: 0;
+	z-index: 1;
+	float:left;
+	margin-top: -160px;
+	margin-left: 25px;
+}
+.d51a:hover .nutplay{
+	display: block;
+	opacity: 1; 
+	transition: 0.5s;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.d6{															/* Div 6*/
+	width: 100%;
+	height: 40px;
+	background-color:#474242;
+	box-sizing: border-box;
+	float: left;
+}
+.d61{
+	width: 70%;
+	height: 40px;
+	background-color: #20A971;
+	color: white;
+	font-size: 1.5em;
+	box-sizing: border-box;
+	margin-left: 12%;
+	text-align: center;
+	padding-top: 5px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d7{															/* Div 7*/
+
+	width: 100%;		
+	height: 2000px;					/* 1330*/
+	background-color: #474242;
+	box-sizing: border-box;
+	float: left;
+	z-index: 0;
+	position: relative;
+}
+.d7 .d71{
+	width: 48%;
+	height: 2000px;
+	background-color: #D7C2C2;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 12%;
+}
+.d7 .d71 .d71a{
+	width: 150px;
+	height: 210px;
+	background-color: white;
+	color: black;
+	font-size: 0.9em;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	margin: 2.6px;
+	margin-top: 9px;
+	margin-left: 8px;
+	border: #C2ACAC solid 1px;	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+#anime{
+	width: 145px;
+	height: 185px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 1px;
+	padding-top: 1px;
+
+}
+.d71a > .nutplay1{
+	width: 100px;
+	height: 100px;
+	opacity: 0;
+	z-index: 1;
+	float:left;
+	margin-top: -160px;
+	margin-left: 25px;
+	display: none;
+}
+.d71a:hover .nutplay1{
+	display: block;
+	opacity: 1; 
+	transition: 0.5s;
+}
+.d71a > .nd{
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	color: black;
+	font-size: 0.8em;
+	text-align: left;
+	font-style: inherit;
+	box-sizing: border-box;
+	float: left;
+	opacity: 0;
+	z-index: 1;
+	margin-top: -250px;
+	margin-left: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: 5px solid #A2E23C;
+	box-shadow: 0 0 15px #A2E23C;
+	position: absolute;
+	display: none;
+}
+.d71a:hover .nd{
+	display: block;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+.d7 .d72{
+	width: 22%;
+	height: 1330px;
+	background-color: white;
+	box-sizing: border-box;
+	float: left;
+}
+.d7 .d72 .d721{
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+	box-sizing: border-box;
+	background-color: #20A971;
+	border-top:1px solid #808451;
+}
+#d7span1{
+	width: 57.355px;
+	height: 30px;
+	background-color: #7A7272;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding-top: 5px;
+	box-sizing: border-box;
+	float: left;	
+	cursor: pointer;
+
+}
+#d7span2{width: 57.355px;height: 30px;background-color: #7A7272;color: white;font-size: 1em;text-align: center;padding-top: 5px;box-sizing: border-box;float:left;	margin-left: 2px;cursor: pointer;
+}
+#d7span3{width: 57.355px;height: 30px;background-color: #7A7272;color: white;font-size: 1em;text-align: center;padding-top: 5px;box-sizing: border-box;float:left;	margin-left: 2px;cursor: pointer;
+}
+#d7span4{width: 57.355px;height: 30px;background-color: #7A7272;color: white;font-size: 1em;text-align: center;padding-top: 5px;box-sizing: border-box;float:left;	margin-left: 2px;cursor: pointer;
+}
+#d7span5{width: 57.355px;height: 30px;background-color: #7A7272;color: white;font-size: 1em;text-align: center;padding-top: 5px;box-sizing: border-box;float:left;	margin-left: 2px;cursor: pointer;
+}
+#d7span1:active{
+	background-color: #20A971;
+	box-shadow: 0 0 15px #20A971;	
+	stop-color:  #20A971;
+}
+#d7span2:active{background-color: #20A971;box-shadow: 0 0 15px #20A971;}#d7span3:active{background-color: #20A971;box-shadow: 0 0 15px #20A971;}#d7span4:active{background-color: #20A971;box-shadow: 0 0 15px #20A971;}#d7span5:active{background-color: #20A971;box-shadow: 0 0 15px #20A971;}
+
+.d7 .d72 .d722{
+	width: 100%;
+	height: 1200px;
+	background-color: white;
+	box-sizing: border-box;
+	float: left;
+
+}
+.d7 .d72 .d722 .d722a{
+	width: 100%;
+	height: 120px;
+	background-color: #413C3C;
+	box-sizing: border-box;
+	float: left;
+	color:white;
+	margin: 1px;
+	cursor: pointer;
+}
+.d7 .d72 .d723{
+	width: 100%;
+	height: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	float: left;
+	background-color: #20A971;
+	border-top:1px solid #808451;
+	margin-top: 10px;
+}
+#xh{
+	width: 35px;
+	height: 35px;
+	background: #324CE8;
+	color: white;
+	font-size: 1.7em;
+	text-align: center;
+	padding-top: 2px;
+	box-sizing: border-box;
+	float: left;
+	border-radius: 100%;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+#anh{
+	width: 70px;
+	height: 100px;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#ten{
+	color: #11EB49;
+	font-size: 1em;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+#tap{
+	color: white;
+	font-size: 1em;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 40px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d8{															/* Div 8*/
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+}
+.d81{
+	width: 50%;
+	height: 180px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 100px;
+	text-align: left;
+}
+.d82{
+	width: 50%;
+	height: 180px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 100px;
+	text-align: left;
+}
+
+
+body{
+	margin: 0px;
+}
+</style>
+</head>
+<body>
+<!----------------------------------------------------------------------------------------------------------------------    DIV1  -->
+<div class="d1">
+	<img src="logo.png">
+	<input type="text" size="50" placeholder= "  Tìm kiếm Anime..." class="inputd1" >
+	<a href="thanhvien.html" target="_blank" style="text-decoration: none" ><p class="d11" style="cursor: pointer">THÀNH VIÊN</p></a>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV2 -->
+<div class="d2">
+	<ul class="menu">
+		<li id="li1" style="cursor: pointer"><a href="trangchu.html" target="_blank" style="text-decoration: none"><p id="hahaha">HOME</p></a>		
+		</li>
+		<li id="li2" style="cursor: pointer"><p id="hahaha">ANIME MÙA</p>
+			<div class="div1">
+				<a href="muahe2018.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa hè 2018</p></a>
+				<a href="muaxuan2018.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa xuân 2018</p></a>
+				<a href="muadong2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa đông 2017</p></a>
+				<a href="muathu2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa thu 2017</p></a>
+				<a href="muahe2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa hè 2017</p></a>
+				<a href="muaxuan2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa xuân 2017</p></a>
+				<a href="muadong2016.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa đông 2016</p></a>
+			</div>
+
+
+		</li>			
+		<li id="li3" style="cursor: pointer"><p id="hahaha">THỂ LOẠI</p>
+			<div class="div2">
+				<a href="hanhdong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Hành Động</p></a>
+				<a href="phieuluu.html" target="_blank" style="text-decoration: none" ><p id="theloai">Phiêu Lưu</p></a>
+				<a href="hocduong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Học Đường</p></a>
+				<a href="haihuoc.html" target="_blank" style="text-decoration: none" ><p id="theloai">Hài Hước</p></a>
+				<a href="doithuong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Đời Thường</p></a>
+				<a href="trinhtham.html" target="_blank" style="text-decoration: none" ><p id="theloai">Trinh Thám</p></a>
+				<a href="drama.html" target="_blank" style="text-decoration: none" ><p id="theloai">Drama</p></a>
+				<a href="ecchi.html" target="_blank" style="text-decoration: none" ><p id="theloai">Ecchi</p></a>
+				<a href="harem.html" target="_blank" style="text-decoration: none" ><p id="theloai">Harem</p></a>
+				<a href="giatuong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Giả Tưởng</p></a>
+				<a href="hikikomori.html" target="_blank" style="text-decoration: none" ><p id="theloai">Hikikomori</p></a>
+				<a href="lichsu.html" target="_blank" style="text-decoration: none" ><p id="theloai">Lịch Sử</p></a>
+				<a href="kinhdi.html" target="_blank" style="text-decoration: none" ><p id="theloai">Kinh Dị</p></a>
+				<a href="tinhtayba.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tình Tay Ba</p></a>
+				<a href="phepthuat.html" target="_blank" style="text-decoration: none" ><p id="theloai">Phép Thuật</p></a>
+				<a href="mecha.html" target="_blank" style="text-decoration: none" ><p id="theloai">Mecha</p></a>
+				<a href="amnhac.html" target="_blank" style="text-decoration: none" ><p id="theloai">Âm Nhạc</p></a>
+				<a href="bian.html" target="_blank" style="text-decoration: none" ><p id="theloai">Bí Ẩn</p></a>
+				<a href="tamli.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tâm lí</p></a>
+				<a href="tinhyeu.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tình Yêu</p></a>
+				<a href="vutru.html" target="_blank" style="text-decoration: none" ><p id="theloai">Vũ Trụ</p></a>
+				<a href="thethao.html" target="_blank" style="text-decoration: none" ><p id="theloai">Thể thao</p></a>
+				<a href="tragedy.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tragedy</p></a>
+				<a href="macarong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Ma Cà Rồng</p></a>
+
+			</div>
+		</li>
+		<li id="li4" style="cursor: pointer"><p id="hahaha">NHÓM DỊCH</p>
+			<div class="div3">
+				<a href="3f.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">3F</p></a>
+				<a href="kimi.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Kimi</p></a>
+				<a href="zing.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Zing</p></a>
+				<a href="clipsub.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Clip-Sub</p></a>
+				<a href="ateam.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">ATeam</p></a>
+				<a href="otakumano.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">OtakuMANO</p></a>
+				<a href="kido.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Kido</p></a>
+				<a href="tralophi.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Tralophi</p></a>
+				<a href="xxx.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">XXX Inc</p></a>
+				<a href="miumiu.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Miu Miu</p></a>
+				<a href="animeblog.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Anime Blog</p></a>
+				<a href="firegodphoenix.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">FireGodPhoenix</p></a>
+				<a href="a4vf.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">A4VF</p></a>
+				<a href="koga.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Koga</p></a>
+				<a href="nyaa.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Nyaa</p></a>
+				<a href="crazysol.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Crazy-Sol</p></a>
+				<a href="yamisora.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Yami-Sora</p></a>
+				<a href="devilslayderteam.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Devil Slayder Team</p></a>
+
+			</div>
+		</li>
+		<li id="li5" style="cursor: pointer"><p id="hahaha">LOẠI PHIM</p>
+			<div class="div4">
+				<a href="trailer.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Trailer</p></a>
+				<a href="tvseries.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">TV Series</p></a>	
+				<a href="movies.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Movies</p></a>
+				<a href="special.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Special</p></a>	
+				<a href="ova.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">OVA</p></a>	
+				<a href="ona.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">ONA</p></a>	
+				<a href="bludray.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Bluray</p></a>	
+				<a href="anime.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Anime</p></a>	
+				<a href="cartoon.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Cartoon</p></a>	
+				<a href="sieunhan.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Siêu Nhân</p></a>	
+				<a href="liveaction.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Live Action</p></a>	
+				<a href="japanese.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Japanese</p></a>	
+				
+			</div>
+		</li>
+		<li id="li6" style="cursor: pointer"><a href="locphim.html" target="_blank" style="text-decoration: none" ><p id="hahaha">LỌC PHIM</p></a></li>
+		<li id="li7" style="cursor: pointer"><a href="lich.html" target="_blank" style="text-decoration: none"><p id="hahaha">LỊCH CHIẾU PHIM</p></a>
+		</li>
+		<li id="li8" style="cursor: pointer"><a href="bangxephang.html" target="_blank" style="text-decoration: none" ><p id="hahaha">BẢNG XẾP HẠNG</p></a></li>
+	</ul>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV3 -->
+<div class="d3">
+	<img src="left-arrow.png" style="cursor: pointer" id="i11" onclick="back()">
+	<img src="right-arrow.png" style="cursor: pointer" id="i12" onclick="next()">
+	<div class="d32">
+		<img src="big2.jpg" id="i1">		
+	</div>
+	
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV4 -->
+<div class="d4">
+	<div class="d41">
+		&hearts;&ensp;&hearts;&ensp;&hearts;&ensp;&hearts;&ensp;&hearts;&ensp;Phim Sắp chiếu&ensp; &hearts;&ensp; &hearts;&ensp; &hearts;&ensp; &hearts;&ensp; &hearts;&ensp;
+	</div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV5 -->
+<div class="d5" class="d5">
+	<div class="d51">
+		<div class="d51a"><img src="sapchieu1.jpg" id="sapchieu"><p><strong>Bakumatsu</strong></p><div class="nutplay"><img src="overlay_rich.png"></div></div>
+		<div class="d51a"><img src="sapchieu2.jpg" id="sapchieu"><p><strong>Sora to Umi no Aida</strong></p><div class="nutplay"><img src="overlay_rich.png"></div></div>
+		<div class="d51a"><img src="sapchieu3.jpg" id="sapchieu"><p><strong>Double Decker!</strong></p><div class="nutplay"><img src="overlay_rich.png"></div></div>
+		<div class="d51a"><img src="sapchieu4.jpg" id="sapchieu"><p><strong>FLCL Alternative</strong></p><div class="nutplay"><img src="overlay_rich.png"></div></div>
+		<div class="d51a"><img src="sapchieu5.jpg" id="sapchieu"><p><strong>One Punch Man</strong></p><div class="nutplay"><img src="overlay_rich.png"></div></div>
+		<div class="d51a"><img src="sapchieu6.jpg" id="sapchieu"><p><strong>Dragon Ball Super</strong></p><div class="nutplay"><img src="overlay_rich.png"></div></div>
+	</div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV6 -->
+<div class="d6">
+	<div class="d61">
+		&hearts;&ensp;&hearts;&ensp;&hearts;&ensp;&hearts;&ensp;&hearts;&ensp;Anime&ensp; &hearts;&ensp; &hearts;&ensp; &hearts;&ensp; &hearts;&ensp; &hearts;&ensp;
+	</div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV7 -->
+
+<div class="d7">
+	<div class="d71">
+		<a href="1baki.html" target="_blank"><div class="d71a"><img src="2a.jpg" id="anime"><p><strong>Baki</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Baki</strong><hr/> Baki Hanma với một sức tập trung cực độ, anh đang luyện tập để trở nên mạnh vượt xa cả cha mình, Yujiro Hanma.....</div></div></a>
+
+		<a href="1akanebasu.html" target="_blank"><div class="d71a"><img src="2b.jpg" id="anime"><p><strong>Akanesasu</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Akanesasu</strong><hr/> Những cô gái sống tại một thành phố nhỏ đã thực hiện một nghi thức đặc biệt. Họ là những cô nàng đến từ câu lạc bộ Crystal Radio...</div></div></a>
+
+		<a href="1anini.html" target="_blank"><div class="d71a"><img src="2c.jpg" id="anime"><p><strong>Ani ni</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Anini</strong><hr/>Mùa thứ 2 Ani ni Tsukeru Kusuri wa Nai</div></div></a>
+
+		<a href="1tensei_shitara.html" target="_blank"><div class="d71a"><img src="2d.jpg" id="anime"><p><strong>Tensei Shitara</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Tensei Shitara</strong><hr/>Câu chuyện bắt đầu với anh chàng Satoru Mikami, một nhân viên 37 tuổi sống cuộc sống chán chường và không vui vẻ gì...</div></div></a>
+
+		<a href="1souten_noken.html" target="_blank"><div class="d71a"><img src="2e.jpg" id="anime"><p><strong>Souten no Ken</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Souten no Ken</strong><hr/> Mùa thứ 2 của anime Souten no Ken: Regenesis</div></div></a>
+
+		<a href="2black_clover.html" target="_blank"><div class="d71a"><img src="3a.jpg" id="anime"><p><strong>Black Clover</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Black Clover</strong><hr/> Asta và Yuno đều bị bỏ rơi ở cùng một nhà thờ, và họ từ đó không thể rời xa nhau. Từ hồi đó, họ đã hứa thi đấu, xem ai sẽ trở thành Emperor Magnus...</div></div></a>
+
+		<a href="2tokyo_ghoul_re.html" target="_blank"><div class="d71a"><img src="3b.jpg" id="anime"><p><strong>Tokyo Ghoul:re</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Tokyo Ghoul:re</strong><hr/>Nối tiếp phần Tokyo Ghoul:re và cũng là mùa thứ 4 của Series</div></div></a>
+
+		<a href="2jigan-san.html" target="_blank"><div class="d71a"><img src="3c.jpg" id="anime"><p><strong>Jigan-san</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Jigan-san</strong><hr/> Cậu học sinh cao trung 16 tuổi tên là Tomari Hinowa. Cậu vừa kết hôn với một...</div></div></a>
+
+		<a href="2conception.html" target="_blank"><div class="d71a"><img src="3d.jpg" id="anime"><p><strong>Conception</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Conception</strong><hr/> Vào cái ngày tốt nghiệp trung học, em họ của Itsuki, Mahiru, nói với anh rằng cô đang mang thai. Ngay sau đó, một cánh cửa ánh sáng xuất hiện và mang cả hai...</div></div></a>
+
+		<a href="2Chuukan_Kanriroku.html" target="_blank"><div class="d71a"><img src="3e.jpg" id="anime"><p><strong>Chuukan Kanriroku</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Chuukan Kanriroku</strong><hr/>Phim sẽ kể về những ngày đau đớn của giám đốc điều hành Tập đoà Teiai là Yukio Tonegawa, người có xung đột với Hyōdō và những kẻ áo đen.</div></div></a>
+
+		<a href="3Yu_Gi_Oh.html" target="_blank"><div class="d71a"><img src="4a.png" id="anime"><p><strong>Yu Gi Oh!</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Yu Gi Oh!</strong><hr/> Season thứ 6 Của Series Phim Yugi oh,Nhân vật chính là Yuusaku hành trình bắt đầu gặp gỡ những người khác thông qua đấu bài tay đôi...</div></div></a>
+
+		<a href="3Ore_ga_Suki.html" target="_blank"><div class="d71a"><img src="4b.jpg" id="anime"><p><strong>Ore ga Suki</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Ore ga Suki</strong><hr/> Phim xoay quanh cặp anh em nhà Nagami. Cô em gái Suzuka là một học sinh cao trung, tài sắc vẹn toàn, và còn là chủ tịch hội học sinh của trường nữa...</div></div></a>
+
+		<a href="3Sora_to_Umi.html" target="_blank"><div class="d71a"><img src="4c.jpg" id="anime"><p><strong>Sora to Umi</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Sora to Umi</strong><hr/> Câu chuyện đặt bối cảnh tại Onomichi, Hiroshima năm 20XX, khi mà cá voi là loài cá duy nhất còn sống trên biển. Vì thế</div></div></a>
+
+		<a href="3Ignress.html" target="_blank"><div class="d71a"><img src="4d.jpg" id="anime"><p><strong>Ingress</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Ingress</strong><hr/> Baki Khi còn nhỏ, Makoto có một sức mạnh kì lạ cho phép cậu đọc được ký ức về thứ mà cậu chạm vào. Ẩn đi sức mạnh không thể kiểm soát của mình</div></div></a>
+
+		<a href="3rErideD.html" target="_blank"><div class="d71a"><img src="4e.jpg" id="anime"><p><strong>rErideD</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>rErideD</strong><hr/>Vào năm 2050, một kĩ sư trẻ tuổi tên là Derrida Yvain đã trở nên nổi tiếng nhờ vào việc chế tạo nên "Cỗ máy di động DZ" tại Rebuild - công ty do cha anh sáng lập...</div></div></a>
+
+		<a href="4Seishun_Buta.html" target="_blank"><div class="d71a"><img src="5a.jpg" id="anime"><p><strong>Seishun Buta</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Seishun Buta</strong><hr/> Hội chứng tuổi dậy thì — một hội chứng bí ẩn, tin đồn chỉ ảnh hưởng đến những người ở tuổi dậy thì. Một cô gái thỏ đột nhiên xuất hiện trước mặt Sakuta Azusagawa.</div></div></a>
+
+		<a href="4Beelzebub.html" target="_blank"><div class="d71a"><img src="5b.jpg" id="anime"><p><strong>Beelzebub</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Beelzebub</strong><hr/> Ước mơ của Murin là được tận tâm phục vụ cho chúa quỷ Beelzebub, người mà anh ấy luôn ngưỡng mộ. Và khi ước mơ của anh thành hiện thực, anh đã luôn có thể...</div></div></a>
+
+		<a href="4Akatsu_Friends.html" target="_blank"><div class="d71a"><img src="5c.jpg" id="anime"><p><strong>Akatsu Friends</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Akatsu Friends</strong><hr/>Mùa mới của anime Aikatsu</div></div></a>
+
+		<a href="4Pokemon_2nd.html" target="_blank"><div class="d71a"><img src="5d.jpg" id="anime"><p><strong>Pokemon 2nd</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Pokemon 2nd</strong><hr/> Satoshi lại cùng Pikachu bước sang một vùng đất mới để xoa dịu tâm hồn sau khi thua Liên đoàn. Lần này, anh sang vùng Alola vốn là mấy hòn đảo nhiệt đới</div></div></a>
+
+		<a href="4Han_Gyaku_sei.html" target="_blank"><div class="d71a"><img src="5e.jpg" id="anime"><p><strong>Han-Gyaku-sei</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Han-Gyaku-sei</strong><hr/>Phim chuyển thể từ trò chơi nhập vai trực tuyến của hãng Square Enix.</div></div></a>
+
+		<a href="5Muhyo.html" target="_blank"><div class="d71a"><img src="6a.jpg" id="anime"><p><strong>Muhyo</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Muhyo</strong><hr/>Toru Muhyo – một thần đồng và là một chuyên gia về pháp thuật và người trợ lý Jiro Kusano. Cặp đôi này cùng điều tra những điều liên quan đến siêu nhiên và đưa chúng ra ánh sáng.</div></div></a>
+
+		<a href="5Tonari.html" target="_blank"><div class="d71a"><img src="6b.jpg" id="anime"><p><strong>Tonari</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Tonari</strong><hr/>Câu chuyện xoay quanh Akari Amano. Trong một sự cố lạ lắm à nghen, Akari đã được một cô gái mang tên Sophie Twilight cứu, sau đó Akari đã thích thú với cô nàng này.</div></div></a>
+
+		<a href="5Yagate.html" target="_blank"><div class="d71a"><img src="6c.jpg" id="anime"><p><strong>Yagate</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Yagate</strong><hr/>Từ lâu Yuu đã luôn yêu thích những manga shoujo và mong một ngày nào đó sẽ nhận được một lời tỏ tình khiến trái tim cô xao xuyến thẹn thùng...</div></div></a>
+
+		<a href="5Toaru.html" target="_blank"><div class="d71a"><img src="6d.jpg" id="anime"><p><strong>Toaru</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+		
+		<a href="5Hinomaruzumou.html" target="_blank"><div class="d71a"><img src="6e.jpg" id="anime"><p><strong>Hinomaruzumou</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="6Zoids_Wild.html" target="_blank"><div class="d71a"><img src="7a.jpg" id="anime"><p><strong>Zoids Wild</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="6Radiant.html" target="_blank"><div class="d71a"><img src="7b.jpg" id="anime"><p><strong>Radiant</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="6Detective_Conan.html" target="_blank"><div class="d71a"><img src="7c.jpg" id="anime"><p><strong>Detective Conan</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="6Sword_Art_Online_3nd.html" target="_blank"><div class="d71a"><img src="7d.jpg" id="anime"><p><strong>Sword Art Online 3nd</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="6SSSS_Gridman.html" target="_blank"><div class="d71a"><img src="7e.jpg" id="anime"><p><strong>SSSS.Gridman</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="7Gintama.html" target="_blank"><div class="d71a"><img src="8a.jpg" id="anime"><p><strong>Gintama</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="7FLCL_Alternative.html" target="_blank"><div class="d71a"><img src="8b.jpg" id="anime"><p><strong>FLCL Alternative</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="7Release_the_Spyce.html" target="_blank"><div class="d71a"><img src="8c.jpg" id="anime"><p><strong>Release the Spyce</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="7Fairy_Tail_3.html" target="_blank"><div class="d71a"><img src="8d.jpg" id="anime"><p><strong>Fairy Tail 3</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+		<a href="7Hug_tto.html" target="_blank"><div class="d71a"><img src="8e.jpg" id="anime"><p><strong>Hug tto!</strong></p><div class="nutplay1"><img src="overlay_rich.png"></div><div class="nd"><strong>Toaru</strong><hr/>Mùa thứ 3 của anime Toaru Majutsu no Index.</div></div></a>
+
+
+
+
+	</div>
+	<div class="d72">
+		<div class="d721">BẢNG XẾP HẠNG</div>
+		<span id="d7span1">Ngày</span>
+		<span id="d7span2">Tuần</span>
+		<span id="d7span3">Tháng</span>
+		<span id="d7span4">Mùa</span>
+		<span id="d7span5">Năm</span>
+		<div class="d722">
+			<a href="1baki.html" target="_blank"><div class="d722a"><div id="xh">1</div><img src="2a.jpg" id="anh"><p id="ten"><strong>Baki</strong></p><p id="tap">1230453 lượt xem</p></div></a>
+
+			<a href="1akanebasu.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">2</div><img src="2b.jpg" id="anh"></div><p id="ten"><strong>Akanesasu</strong></p><p id="tap">1169036 lượt xem</p></div></a>
+
+			<a href="1anini.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">3</div><img src="2c.jpg" id="anh"></div><p id="ten"><strong>Ani ni</strong></p><p id="tap">1103652 lượt xem</p></div></a>
+
+			<a href="1tensei_shitara.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">4</div><img src="2d.jpg" id="anh"></div><p id="ten"><strong>Tensei Shitara</strong></p><p id="tap">998690 lượt xem</p></div></a>
+
+			<a href="1souten_noken.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">5</div><img src="2e.jpg" id="anh"></div><p id="ten"><strong>Souten no Ken</strong></p><p id="tap">896532 lượt xem</p></div></a>
+
+			<a href="2black_clover.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">6</div><img src="3a.jpg" id="anh"></div><p id="ten"><strong>Black Clover</strong></p><p id="tap">756963 lượt xem</p></div></a>
+
+			<a href="2tokyo_ghoul_re.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">7</div><img src="3b.jpg" id="anh"></div><p id="ten"><strong>Tokyo Ghoul:re</strong></p><p id="tap">743695 lượt xem</p></div></a>
+
+			<a href="2jigan-san.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">8</div><img src="3c.jpg" id="anh"></div><p id="ten"><strong>Jigan-san</strong></p><p id="tap">653698 lượt xem</p></div></a>
+
+			<a href="2conception.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">9</div><img src="3d.jpg" id="anh"></div><p id="ten"><strong>Conception</strong></p><p id="tap">536548 lượt xem</p></div></a>
+
+			<a href="2Chuukan_Kanriroku.html" target="_blank"><div class="d722a"><div class="d722a"><div id="xh">10</div><img src="3e.jpg" id="anh"></div><p id="ten"><strong>Chuukan Kanriroku</strong></p><p id="tap">356952 lượt xem</p></div></a>
+		</div>
+		<div class="d723">THANKS YOU FOR WATCHING</div>
+	</div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV8 -->
+
+<div class="d8">
+	<div class="d81">
+		<p>GIỚI THIỆU</p>
+		<p>ANIMETVN.COM - Trang web xem Anime HD trực tuyến. Kho Anime phong phú nhiều thể loại, cập nhật mới liên tục mỗi ngày.</p>
+		<p>Mọi dữ liệu trên ANIMETVN.COM đều được tổng hợp và re-upload từ internet.</p>
+		<p>Xem tốt nhất với trình duyệt Mozilla Firefox & Google Chrome.</p>
+	</div>
+	<div class="d82">
+		<p>Sitemap</p>
+		<p>RSS</p>
+		<p>Liên hệ: ad.animetvn@gmail.com</p>
+	</div>
+	<p>Copyright © 2018 . ANIMETVN.TV. All Rights Reserved.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,422 @@
+<html>
+<head>
+<style>
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d1{															/* Div 1*/
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 0.9em;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+
+
+.d1 img{
+	margin-left: 12%;
+	height: 40px;
+}
+.d1 .inputd1{
+	width: 450px;
+	height: 35px;
+	background:#E6CECE;
+	font-size: 1em;
+
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 15px;
+	border: solid black 1px;
+}
+.d1 .inputd1:focus{
+	outline: 0;
+	border:1px solid #F30EBA;
+	box-shadow: 0 0 15px #808451;
+}
+.d1 .d11 {									/* chữ thành viên*/
+	width: 100px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 0%;
+	margin-right: 400px;
+	padding-top: 15px;
+}
+.d11:hover{
+	background-color: #20A971;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #20A971;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d2{															/* Div 2*/
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	text-align: left;
+	box-sizing: border-box;
+	float: left;
+	
+}
+.d2 .menu{
+	list-style-type: none;
+	box-sizing: border-box;
+	margin-top: 0%;
+	margin-left: 9%;
+}
+.d2 .menu > li{		
+	height: 40px;
+	color: white;	
+	font-size: 0.9em;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+}
+#hahaha{
+	color: white;
+}
+li > .div1{
+	background-color: #253D66;
+	width: 400px;
+	height: 170px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 233px;
+	margin-top: -6px;
+}
+li > .div2{
+	background-color: #253D66;
+	width:  530px;
+	height: 300px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 350px;
+	margin-top: -6px;
+}
+li > .div3{
+	background-color: #253D66;
+	width:  800px;
+	height: 300px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 445px;
+	margin-top: -6px;
+}
+li > .div4{
+	background-color: #253D66;
+	width:  550px;
+	height: 200px;
+	display: none;
+	transition: all 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	z-index: 1;
+	margin-left: 565px;
+	margin-top: -6px;
+}
+
+
+#li1{width: 6%;}
+#li2{
+	width: 10%;
+}
+#li3{
+	width: 8%;
+}
+#li4{
+	width: 10%;
+}
+#li5{
+	width: 10%;
+}
+#li6{
+	width: 8%;
+}
+#li7{
+	width: 13%;
+}
+#li8{
+	width: 13%;
+}
+li:hover div{
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+li:hover{
+	background-color: #20A971;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #20A971;
+}
+
+
+#mua{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#mua:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+#theloai{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#theloai:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+#nhomdich{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#nhomdich:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+#loaiphim{
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+#loaiphim:hover{
+	background-color: #E59016;
+	transition: 0.5s;
+	box-shadow: 0 0 15px #E59016;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d4{															/* Div 4*/
+	width: 100%;
+	height: 40px;
+	background-color:#474242;
+	box-sizing: border-box;
+	float: left;
+}
+.d4 .d41{
+	width: 889px;
+	height: 40px;
+	background-color: #20A971;
+	color: white;
+	font-size: 1.5em;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 245px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.d8{															/* Div 8*/
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+}
+.d81{
+	width: 50%;
+	height: 180px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 100px;
+	text-align: left;
+}
+.d82{
+	width: 50%;
+	height: 180px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 100px;
+	text-align: left;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.phim{															/* Div phim*/
+	width: 100%;
+	height: 500px;
+	background-color: #474242;
+	box-sizing: border-box;
+	float: left;
+}
+.phim video{
+	margin-left: 150px;
+}
+
+
+body{
+	margin: 0px;
+}
+
+</style>
+</head>
+<body>
+<!----------------------------------------------------------------------------------------------------------------------    DIV1  -->
+<div class="d1">
+	<img src="logo.png">
+	<input type="text" size="50" placeholder= "  Tìm kiếm Anime..." class="inputd1" >
+	<a href="thanhvien.html" target="_blank" style="text-decoration: none" ><p class="d11" style="cursor: pointer">THÀNH VIÊN</p></a>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV2 -->
+<div class="d2">
+	<ul class="menu">
+		<li id="li1" style="cursor: pointer"><a href="trangchu.html" target="_blank" style="text-decoration: none"><p id="hahaha">HOME</p></a>		
+		</li>
+		<li id="li2" style="cursor: pointer"><p id="hahaha">ANIME MÙA</p>
+			<div class="div1">
+				<a href="muahe2018.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa hè 2018</p></a>
+				<a href="muaxuan2018.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa xuân 2018</p></a>
+				<a href="muadong2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa đông 2017</p></a>
+				<a href="muathu2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa thu 2017</p></a>
+				<a href="muahe2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa hè 2017</p></a>
+				<a href="muaxuan2017.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa xuân 2017</p></a>
+				<a href="muadong2016.html" target="_blank" style="text-decoration: none" ><p id="mua">Mùa đông 2016</p></a>
+			</div>
+
+
+		</li>			
+		<li id="li3" style="cursor: pointer"><p id="hahaha">THỂ LOẠI</p>
+			<div class="div2">
+				<a href="hanhdong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Hành Động</p></a>
+				<a href="phieuluu.html" target="_blank" style="text-decoration: none" ><p id="theloai">Phiêu Lưu</p></a>
+				<a href="hocduong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Học Đường</p></a>
+				<a href="haihuoc.html" target="_blank" style="text-decoration: none" ><p id="theloai">Hài Hước</p></a>
+				<a href="doithuong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Đời Thường</p></a>
+				<a href="trinhtham.html" target="_blank" style="text-decoration: none" ><p id="theloai">Trinh Thám</p></a>
+				<a href="drama.html" target="_blank" style="text-decoration: none" ><p id="theloai">Drama</p></a>
+				<a href="ecchi.html" target="_blank" style="text-decoration: none" ><p id="theloai">Ecchi</p></a>
+				<a href="harem.html" target="_blank" style="text-decoration: none" ><p id="theloai">Harem</p></a>
+				<a href="giatuong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Giả Tưởng</p></a>
+				<a href="hikikomori.html" target="_blank" style="text-decoration: none" ><p id="theloai">Hikikomori</p></a>
+				<a href="lichsu.html" target="_blank" style="text-decoration: none" ><p id="theloai">Lịch Sử</p></a>
+				<a href="kinhdi.html" target="_blank" style="text-decoration: none" ><p id="theloai">Kinh Dị</p></a>
+				<a href="tinhtayba.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tình Tay Ba</p></a>
+				<a href="phepthuat.html" target="_blank" style="text-decoration: none" ><p id="theloai">Phép Thuật</p></a>
+				<a href="mecha.html" target="_blank" style="text-decoration: none" ><p id="theloai">Mecha</p></a>
+				<a href="amnhac.html" target="_blank" style="text-decoration: none" ><p id="theloai">Âm Nhạc</p></a>
+				<a href="bian.html" target="_blank" style="text-decoration: none" ><p id="theloai">Bí Ẩn</p></a>
+				<a href="tamli.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tâm lí</p></a>
+				<a href="tinhyeu.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tình Yêu</p></a>
+				<a href="vutru.html" target="_blank" style="text-decoration: none" ><p id="theloai">Vũ Trụ</p></a>
+				<a href="thethao.html" target="_blank" style="text-decoration: none" ><p id="theloai">Thể thao</p></a>
+				<a href="tragedy.html" target="_blank" style="text-decoration: none" ><p id="theloai">Tragedy</p></a>
+				<a href="macarong.html" target="_blank" style="text-decoration: none" ><p id="theloai">Ma Cà Rồng</p></a>
+
+			</div>
+		</li>
+		<li id="li4" style="cursor: pointer"><p id="hahaha">NHÓM DỊCH</p>
+			<div class="div3">
+				<a href="3f.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">3F</p></a>
+				<a href="kimi.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Kimi</p></a>
+				<a href="zing.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Zing</p></a>
+				<a href="clipsub.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Clip-Sub</p></a>
+				<a href="ateam.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">ATeam</p></a>
+				<a href="otakumano.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">OtakuMANO</p></a>
+				<a href="kido.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Kido</p></a>
+				<a href="tralophi.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Tralophi</p></a>
+				<a href="xxx.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">XXX Inc</p></a>
+				<a href="miumiu.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Miu Miu</p></a>
+				<a href="animeblog.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Anime Blog</p></a>
+				<a href="firegodphoenix.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">FireGodPhoenix</p></a>
+				<a href="a4vf.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">A4VF</p></a>
+				<a href="koga.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Koga</p></a>
+				<a href="nyaa.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Nyaa</p></a>
+				<a href="crazysol.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Crazy-Sol</p></a>
+				<a href="yamisora.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Yami-Sora</p></a>
+				<a href="devilslayderteam.html" target="_blank" style="text-decoration: none" ><p id="nhomdich">Devil Slayder Team</p></a>
+
+			</div>
+		</li>
+		<li id="li5" style="cursor: pointer"><p id="hahaha">LOẠI PHIM</p>
+			<div class="div4">
+				<a href="trailer.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Trailer</p></a>
+				<a href="tvseries.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">TV Series</p></a>	
+				<a href="movies.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Movies</p></a>
+				<a href="special.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Special</p></a>	
+				<a href="ova.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">OVA</p></a>	
+				<a href="ona.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">ONA</p></a>	
+				<a href="bludray.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Bluray</p></a>	
+				<a href="anime.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Anime</p></a>	
+				<a href="cartoon.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Cartoon</p></a>	
+				<a href="sieunhan.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Siêu Nhân</p></a>	
+				<a href="liveaction.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Live Action</p></a>	
+				<a href="japanese.html" target="_blank" style="text-decoration: none" ><p id="loaiphim">Japanese</p></a>	
+				
+			</div>
+		</li>
+		<li id="li6" style="cursor: pointer"><a href="locphim.html" target="_blank" style="text-decoration: none" ><p id="hahaha">LỌC PHIM</p></a></li>
+		<li id="li7" style="cursor: pointer"><a href="lich.html" target="_blank" style="text-decoration: none"><p id="hahaha">LỊCH CHIẾU PHIM</p></a>
+		</li>
+		<li id="li8" style="cursor: pointer"><a href="bangxephang.html" target="_blank" style="text-decoration: none" ><p id="hahaha">BẢNG XẾP HẠNG</p></a></li>
+	</ul>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV4 -->
+<div class="d4">
+	<div class="d41">
+		Gintama
+	</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV8phim -->
+<div class="phim">
+	<video width="80%" height="500px" controls><source src="C:\Users\hieu\Desktop\P_FrontEnd\clip7\Gintama Opening 18.mp4" type="video/mp4"></video>
+
+
+
+
+</div>
+<!----------------------------------------------------------------------------------------------------------------------    DIV8 -->
+<div class="d8">
+	<div class="d81">
+		<p>GIỚI THIỆU</p>
+		<p>ANIMETVN.COM - Trang web xem Anime HD trực tuyến. Kho Anime phong phú nhiều thể loại, cập nhật mới liên tục mỗi ngày.</p>
+		<p>Mọi dữ liệu trên ANIMETVN.COM đều được tổng hợp và re-upload từ internet.</p>
+		<p>Xem tốt nhất với trình duyệt Mozilla Firefox & Google Chrome.</p>
+	</div>
+	<div class="d82">
+		<p>Sitemap</p>
+		<p>RSS</p>
+		<p>Liên hệ: ad.animetvn@gmail.com</p>
+	</div>
+	<p>Copyright © 2018 . ANIMETVN.TV. All Rights Reserved.</p>
+</div>
+</body>
+</html>
